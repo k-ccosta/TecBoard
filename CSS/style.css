@@ -1,0 +1,107 @@
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0E1014;
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+}
+
+header img {
+    display: block;
+    /* margin: 75px 0 0 360px;     */
+    margin: 4.7rem 0 0 22.5rem;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: "Unbounded", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    /* margin-top: 60px; */
+    margin-top: 3.75rem;
+}
+
+h1 span {
+    color: #9747FF;   
+}
+
+/* h1, p, a {
+    color: #FFFFFF;
+} */
+
+p {
+    text-align: center;
+    /* margin-top: 24px; */
+    margin: 1.5rem auto 0;;
+    width: 792px;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #9747FF;
+    border-radius: 2.25rem;
+    /* width: 21.25rem; */
+    max-width: 21.25rem;
+    width: 100%;
+    height: 4.125rem;
+    display: block;
+    text-align: center;
+    line-height: 4.125rem;
+    /* margin: 40px auto; */
+    margin: 2.5rem auto;
+}
+
+a:hover {
+    background-color: #8233E8;
+}
+
+section img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 792px;
+    height: auto;
+}
+
+@media(max-width: 768px) {
+    header img {
+        margin: 65px 0 0 60px;
+    }
+
+    p {
+        width: 648px;
+    }
+}
+
+@media(max-width: 375px) {
+    header img {
+        margin: 32px 0 0 16px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 20px;
+        width: 340px;
+    }
+
+    a {
+        font-size: 20px;
+        width: 251px;
+    }
+
+    section img {
+        width: 340px;
+        height: 230px;
+    }
+}
